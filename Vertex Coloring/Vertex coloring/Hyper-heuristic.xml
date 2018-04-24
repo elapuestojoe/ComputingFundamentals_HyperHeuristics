@@ -1,0 +1,23 @@
+<!--=============================================
+Feel free to add any comments in this section
+=============================================
+-->
+<distance-based-heuristic-selector>
+	<features nbFeatures="1">
+		<feature name="RND"/>
+	</features>
+	<heuristics nbHeuristics="2">
+		<heuristic name="DEG"/>
+		<heuristic name="SDEG"/>
+	</heuristics>
+	<rules nbRules="8">
+		<rule condition="0.63184" action="0"/>
+		<rule condition="0.17246" action="0"/>
+		<rule condition="0.37520" action="0"/>
+		<rule condition="0.73262" action="0"/>
+		<rule condition="-0.05957" action="1"/>
+		<rule condition="0.91543" action="0"/>
+		<rule condition="0.49707" action="1"/>
+		<rule condition="0.45371" action="0"/>
+	</rules>
+</distance-based-heuristic-selector>
